@@ -1,0 +1,43 @@
+body{
+    background-color: #021c31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+h1{
+    margin: 1em 0 2em 0;
+    color: red;
+}
+
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: #d478311a;
+    margin-left: 1em;
+    padding: 1em;
+    border-radius: 3px;
+}
+p{
+    color: red;
+}
+
+.group{
+    background-color: rgba(87, 35, 35, 0.1);
+    padding: .5em;
+    margin: 1em 0;
+    border-radius: 3px;
+}
+.group *, button{
+    display: block;
+    margin: .5em 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button{
+    padding: .5em;
+    color: rgb(12, 40, 85);
+}
